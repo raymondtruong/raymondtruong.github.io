@@ -15,6 +15,7 @@
 
 			gtag('config', 'UA-123135662-1');
 		</script>
+		<script src="assets/js/typed.min.js"></script>
 
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -34,12 +35,19 @@
 			<!-- Main -->
 			<section id="main">
 				<header>
-					<span class="avatar"><img src="files/avatar.jpg" alt="Raymond Truong" /></span>
-					<h1>Raymond Truong</h1>
-					<span id="typed"></span>
+					<span class="avatar">
+						<script>
+							document.write("<img src=\"files/avatar_" + Math.ceil(Math.random() * 2) + ".jpg\" alt=\"Raymond Truong\" />");
+						</script>
+						<noscript><img src="files/avatar_1.jpg" alt="Raymond Truong" /></noscript>
+					</span>
 
+					<h1>Raymond Truong</h1>
+
+					<span id="typed"></span>
 					<div id="typed-strings">
-						<p>Computer Science @ UofT<br>Product Advisor @ Microsoft</p>
+						<p>Computer Science @ UofT ^500</p>
+						<p>Product Advisor @ Microsoft ^500</p>
 					</div>
 				</header>
 
@@ -67,7 +75,13 @@
 				window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
 				document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 			}
-		</script>
 
+			var typed = new Typed('#typed', {
+				stringsElement: '#typed-strings',
+				typeSpeed: 75,
+				loop: true,
+				loopCount: Infinity
+			});
+		</script>
 	</body>
 </html>
