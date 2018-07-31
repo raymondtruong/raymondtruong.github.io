@@ -6,52 +6,68 @@
 -->
 <html>
 	<head>
-		<title>Raymond Truong</title>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123135662-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-123135662-1');
+		</script>
+
 		<meta charset="utf-8" />
-		<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="/assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+
+		<link rel='shortcut icon' type='image/x-icon' href='assets/favicon.ico' />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<title>Raymond Truong</title>
 	</head>
+
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+		<div id="wrapper">
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="/images/avatar.jpg" alt="Raymond Truong" /></span>
-							<h1>Raymond Truong</h1>
-							<p>Computer Science at UofT<br>Product Advisor at Microsoft</p>
-						</header>
+			<!-- Main -->
+			<section id="main">
+				<header>
+					<span class="avatar"><img src="files/avatar.jpg" alt="Raymond Truong" /></span>
+					<h1>Raymond Truong</h1>
+					<span id="typed"></span>
 
-						<footer>
-							<ul class="icons">
-								<li><a href="https://www.linkedin.com/in/raymondtruong" class="fa-linkedin-square" title="LinkedIn">LinkedIn</a></li>
-								<li><a href="https://www.github.com/raymondtruong" class="fa-github-square" title="GitHub">GitHub</a></li>
-								<li><a href="/files/resume.pdf" class="fa-pencil-square" title="R&eacute;sum&eacute;">R&eacute;sum&acute;</a></li>
-								<li><a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#x3a;&#x72;&#97;&#121;&#109;&#111;&#110;&#100;&#46;&#116;&#114;&#x75;&#111;&#110;&#x67;&#x40;&#104;&#111;&#116;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#97;" class="fa-envelope-square" title="Email">Email</a></li>
-							</ul>
-						</footer>
-					</section>
+					<div id="typed-strings">
+						<p>Computer Science @ UofT<br>Product Advisor @ Microsoft</p>
+					</div>
+				</header>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; 2018</li>
-						</ul>
-					</footer>
+				<footer>
+					<ul class="icons">
+						<li><a href="https://www.github.com/raymondtruong" class="fa-github-square" title="GitHub">GitHub</a></li>
+						<li><a href="https://www.linkedin.com/in/raymondtruong" class="fa-linkedin-square" title="LinkedIn">LinkedIn</a></li>
+						<li><a href="mailto:&#114;&#097;&#121;&#109;&#111;&#110;&#100;&#064;&#116;&#114;&#117;&#111;&#046;&#110;&#103;" class="fa-envelope-square" title="Email">Email</a></li>
+					</ul>
+				</footer>
+			</section>
 
-			</div>
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="copyright">
+					<li>&copy; 2018</li>
+				</ul>
+			</footer>
+
+		</div>
 
 		<!-- Scripts -->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
+		<script>
+			if ('addEventListener' in window) {
+				window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+				document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+			}
+		</script>
 
 	</body>
 </html>
