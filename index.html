@@ -36,18 +36,14 @@
 			<section id="main">
 				<header>
 					<span class="avatar">
-						<script>
-							document.write("<img src=\"files/avatar_" + Math.ceil(Math.random() * 2) + ".jpg\" alt=\"Raymond Truong\" />");
-						</script>
-						<noscript><img src="files/avatar_1.jpg" alt="Raymond Truong" /></noscript>
+						<img src="files/avatar.jpg" alt="Raymond Truong" />
 					</span>
 
 					<h1>Raymond Truong</h1>
 
 					<span id="typed"></span>
 					<div id="typed-strings">
-						<p>Computer Science @ UofT ^500</p>
-						<p>Product Advisor @ Microsoft ^500</p>
+						<p>Computer Science @ UofT</p>
 					</div>
 				</header>
 
@@ -76,9 +72,8 @@
 
 			var typed = new Typed('#typed', {
 				stringsElement: '#typed-strings',
-				typeSpeed: 75,
-				loop: true,
-				loopCount: Infinity
+				typeSpeed: 100,
+				loop: false,
 			});
 		</script>
 	</body>
