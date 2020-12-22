@@ -10,7 +10,7 @@ if (navigator.userAgent.match(/instagram/i)) {
 
 var typed = new Typed('#typed', {
     stringsElement: '#typed-strings',
-    typeSpeed: 60,
+    typeSpeed: 85,
     loop: false,
 });
 
