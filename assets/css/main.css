@@ -60,7 +60,7 @@
 
 	body {
 		height: 100%;
-		background-color: #212529;
+		background-color: #212124;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center center;
@@ -335,7 +335,7 @@ ul.links {
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
 		padding: 2em 2em 2em 2em;
-		background: #212529;
+		background: #212124;
 		border-radius: 4px;
 		cursor: default;
 		max-width: 100%;
@@ -356,7 +356,7 @@ ul.links {
 				display: block;
 				margin: 0 auto;
 				border-radius: 10px;
-				box-shadow: 0 0 0 2px #212529;
+				box-shadow: 0 0 0 2px #212124;
 			}
 
 		@media screen and (max-width: 480px) {
