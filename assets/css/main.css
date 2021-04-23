@@ -60,7 +60,7 @@
 
 	body {
 		height: 100%;
-		background-color: #212124;
+		background-color: #ffffff;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center center;
@@ -70,7 +70,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #dddddd;
+		color: #333333;
 
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 14pt;
@@ -117,7 +117,7 @@
 		}
 
 	strong, b {
-		color: #dddddd;
+		color: #313f47;
 	}
 
 	em, i {
@@ -142,7 +142,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #000000;
 
 		line-height: 1.5;
 		margin: 0 0 0.75em 0;
@@ -201,7 +201,7 @@
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px #ffffff;
+		border-bottom: solid 1px #c8cccf;
 		margin: 3em 0;
 	}
 
@@ -291,11 +291,11 @@ ul.links {
 				}
 
 				ul.icons li a:before {
-					color: #ffffff;
+					color: #555555;
 				}
 
 				ul.icons li a:hover:before {
-					color: #888888
+					color: #bbbbbb
 				}
 
 				ul.icons li a:before {
@@ -335,7 +335,7 @@ ul.links {
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
 		padding: 2em 2em 2em 2em;
-		background: #212124;
+		background: #ffffff;
 		border-radius: 4px;
 		cursor: default;
 		max-width: 100%;
@@ -356,7 +356,7 @@ ul.links {
 				display: block;
 				margin: 0 auto;
 				border-radius: 10px;
-				box-shadow: 0 0 0 2px #212124;
+				box-shadow: 0 0 0 2px #d6d6d6;
 			}
 
 		@media screen and (max-width: 480px) {
@@ -384,7 +384,7 @@ ul.links {
 		-ms-align-self: -ms-flex-end;
 		align-self: flex-end;
 		width: 100%;
-		color: #555555;
+		color: #333333;
 		cursor: default;
 		text-align: center;
 	}
