@@ -1,44 +1,64 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel='shortcut icon' type='image/x-icon' href='assets/favicon.ico' />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<title>Raymond Truong</title>
-	</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Raymond Truong is a senior software engineer at Microsoft in Seattle and Toronto.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="assets/fonts/instrument-sans-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/instrument-sans-medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/instrument-serif-italic.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Raymond Truong</title>
+  </head>
+  <body>
+    <main class="profile">
+      <figure class="portrait">
+        <picture>
+          <source srcset="files/portrait-640.avif 640w, files/portrait-960.avif 960w" sizes="(max-width: 900px) 66vw, 400px" type="image/avif">
+          <img src="files/portrait-960.jpg" srcset="files/portrait-640.jpg 640w, files/portrait-960.jpg 960w" sizes="(max-width: 900px) 66vw, 400px" width="960" height="1200" alt="Portrait of Raymond Truong">
+        </picture>
+      </figure>
 
-	<body class="is-preload">
-		<div id="wrapper">
-			<section id="main">
-				<header>
-					<span class="avatar">
-						<img src="files/avatar.jpg" alt="Raymond Truong" />
-					</span>
+      <section class="identity" aria-labelledby="name">
+        <h1 class="name" id="name">
+          <span class="first-name">Raymond</span>
+          <span class="last-name">Truong</span>
+        </h1>
 
-					<h1 class="title">Raymond Truong</h1>
+        <div class="details">
+          <p>Senior Software Engineer at Microsoft</p>
+          <p>Seattle, WA <span aria-hidden="true">&nbsp;·&nbsp;</span> Toronto, ON<span aria-hidden="true">&nbsp;&nbsp;</span><span role="img" aria-label="Canada">🇨🇦</span></p>
+        </div>
 
-					<span id="typed" class="title"></span>
-					<div id="typed-strings">
-						<p>Software Engineer @ Microsoft</p>
-					</div>
-				</header>
-				<footer>
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/raymondtruong/" class="fa-linkedin" title="LinkedIn">LinkedIn</a></li>
-						<li><a href="https://www.github.com/raymondtruong" class="fa-github" title="GitHub">GitHub</a></li>
-						<li><a href="mailto:&#114;&#097;&#121;&#109;&#111;&#110;&#100;&#064;&#116;&#114;&#117;&#111;&#046;&#110;&#103;" class="fa-envelope" title="Email">Email</a></li>
-					</ul>
-				</footer>
-			</section>
+        <ul class="links" aria-label="Contact and profiles">
+          <li>
+            <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x72;&#x61;&#x79;&#x6d;&#x6f;&#x6e;&#x64;&#x40;&#x74;&#x72;&#x75;&#x6f;&#x2e;&#x6e;&#x67;">
+              <svg class="link-icon" aria-hidden="true" viewBox="0 0 16 16"><use href="assets/icons.svg#email"></use></svg>
+              <span>Email</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/raymondtruong/">
+              <svg class="link-icon" aria-hidden="true" viewBox="0 0 16 16"><use href="assets/icons.svg#linkedin"></use></svg>
+              <span>LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/raymondtruong">
+              <svg class="link-icon" aria-hidden="true" viewBox="0 0 16 16"><use href="assets/icons.svg#github"></use></svg>
+              <span>GitHub</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
 
-			<footer id="footer">
-				<a href="https://github.com/raymondtruong/raymondtruong.github.io" class="copyright">&copy; 2022</a>
-			</footer>
-		</div>
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123135662-1"></script>
-		<script src="assets/js/main.js"></script>
-	</body>
+    <footer class="site-footer">
+      <a href="https://github.com/raymondtruong/raymondtruong.github.io" aria-label="View source code on GitHub">
+        <span>© 2017–now ↗</span>
+        <span class="source-label" aria-hidden="true">View source</span>
+      </a>
+    </footer>
+  </body>
 </html>
